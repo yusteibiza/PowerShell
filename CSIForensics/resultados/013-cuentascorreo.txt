@@ -1,0 +1,52 @@
+=== Cuentas de correo (Outlook MAPI) 06/19/2026 14:15:22 ===
+
+Usuario: systemprofile
+SID: S-1-5-18
+----------------------
+Sin cuentas de correo visibles
+
+Usuario: LocalService
+SID: S-1-5-19
+----------------------
+Sin cuentas de correo visibles
+
+Usuario: NetworkService
+SID: S-1-5-20
+----------------------
+Sin cuentas de correo visibles
+
+Usuario: Yuste
+SID: S-1-5-21-127761273-246687943-1526783148-1002
+----------------------
+yustecsi@csibiza.com
+default-theme@mozilla.org
+yusteibiza%40gmail.com@imap.gmail.com
+yusteibiza@gmail.com
+yustecsi%40csibiza.com@mail.csibiza.com
+csi@csibiza.com
+yusteibiza%40hotmail.com@outlook.office365.com
+yusteibiza@hotmail.com
+import@service.invalid
+
+Usuario: CSI
+SID: S-1-5-21-127761273-246687943-1526783148-1005
+----------------------
+Sin cuentas de correo visibles
+
+Usuario: SQLTELEMETRY
+SID: S-1-5-80-2652535364-2169709536-2857650723-2622804123-1107741775
+----------------------
+Sin cuentas de correo visibles
+
+Usuario: SQLSERVERAGENT
+SID: S-1-5-80-344959196-2060754871-2302487193-2804545603-1466107430
+----------------------
+Sin cuentas de correo visibles
+
+Usuario: MSSQLSERVER
+SID: S-1-5-80-3880718306-3832830129-1677859214-2598158968-1052248003
+----------------------
+Sin cuentas de correo visibles
+
+
+=== Fin ===

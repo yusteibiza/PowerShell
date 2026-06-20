@@ -1,0 +1,10 @@
+﻿
+DisplayName                     DisplayVersion Publisher 
+-----------                     -------------- --------- 
+Mozilla Firefox ESR (x64 en-US) 140.12.0       Mozilla   
+Google Chrome                   149.0.7827.156 Google LLC
+Microsoft Edge                  149.0.4022.69  Microso...
+WebView2 Runtime de Microsof... 149.0.4022.69  Microso...
+Chrome Remote Desktop Host      149.0.7827.18  Google LLC
+
+

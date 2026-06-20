@@ -1,0 +1,8 @@
+=== Clientes de correo detectados 06/19/2026 14:15:21 ===
+
+Outlook (Microsoft Office) detectado
+New Outlook detectado
+Thunderbird detectado (usuario: Yuste)
+Perfil activo encontrado
+
+=== Fin ===

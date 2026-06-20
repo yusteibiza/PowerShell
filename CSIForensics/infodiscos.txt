@@ -1,0 +1,105 @@
+================================= [ Disco 0 ] =================================
+Número de disco          : 0
+Fabricante               : 
+Modelo                   : WDC  WDS500G2B0A-00SM50
+Tamaño del disco         : 465,76 GB
+UID del disco            : {cfdfbda9-b208-449d-915c-89c8fb132116}
+
+Número de partición      : 1
+Tamaño de la partición   : 465,76 GB
+UID de la partición      : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+Letra de unidad          : D
+Sistema de archivos      : NTFS
+Volume UID               : \\?\Volume{000006b1-fcb0-8010-29bf-da01620d0000}\
+
+================================= [ Disco 1 ] =================================
+Número de disco          : 1
+Fabricante               : 
+Modelo                   : TOSHIBA DT01ACA300
+Tamaño del disco         : 2.794,52 GB
+UID del disco            : {8e65b600-377f-03aa-806d-99e3df8dea00}
+
+Número de partición      : 1
+Tamaño de la partición   : 2.500,00 GB
+UID de la partición      : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+Letra de unidad          : E
+Sistema de archivos      : NTFS
+Volume UID               : \\?\Volume{00253e1f-8720-c7ca-bf1b-d57d3e7c4a00}\
+
+Número de partición      : 2
+Tamaño de la partición   : 0,23 GB
+UID de la partición      : {0657fd6d-a4ab-43c4-84e5-0933c84b4f4f}
+Letra de unidad          : Sin letra
+Sistema de archivos      : N/A
+Volume UID               : N/A
+
+Número de partición      : 3
+Tamaño de la partición   : 292,52 GB
+UID de la partición      : {0fc63daf-8483-4772-8e79-3d69d8477de4}
+Letra de unidad          : Sin letra
+Sistema de archivos      : N/A
+Volume UID               : N/A
+
+================================= [ Disco 2 ] =================================
+Número de disco          : 2
+Fabricante               : 
+Modelo                   : WDC WD40EFRX-68N32N0
+Tamaño del disco         : 3.726,02 GB
+UID del disco            : {e893aca0-b526-03b6-28eb-24ba49aded00}
+
+Número de partición      : 1
+Tamaño de la partición   : 3.726,02 GB
+UID de la partición      : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+Letra de unidad          : F
+Sistema de archivos      : NTFS
+Volume UID               : \\?\Volume{677d5bd0-5a94-01db-e8ad-be334aaded00}\
+
+================================= [ Disco 3 ] =================================
+Número de disco          : 3
+Fabricante               : NVMe    
+Modelo                   : Apacer AS2280P4 
+Tamaño del disco         : 476,94 GB
+UID del disco            : {9f6502e0-6307-03b4-b840-d9e7c118ed00}
+
+Número de partición      : 1
+Tamaño de la partición   : 476,93 GB
+UID de la partición      : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+Letra de unidad          : G
+Sistema de archivos      : NTFS
+Volume UID               : \\?\Volume{45957510-a9e1-11f0-9615-005056c00008}\
+
+================================= [ Disco 4 ] =================================
+Número de disco          : 4
+Fabricante               : NVMe    
+Modelo                   : Apacer AS2280P4 
+Tamaño del disco         : 953,87 GB
+UID del disco            : {ff0baacb-332c-443c-a1f6-f3e28a6b9ba8}
+
+Número de partición      : 1
+Tamaño de la partición   : 0,10 GB
+UID de la partición      : {c12a7328-f81f-11d2-ba4b-00a0c93ec93b}
+Letra de unidad          : 
+Sistema de archivos      : FAT32
+Volume UID               : \\?\Volume{81953347-512f-4733-8391-139e0eed6357}\
+
+Número de partición      : 2
+Tamaño de la partición   : 0,02 GB
+UID de la partición      : {e3c9e316-0b5c-4db8-817d-f92df00215ae}
+Letra de unidad          : Sin letra
+Sistema de archivos      : N/A
+Volume UID               : N/A
+
+Número de partición      : 3
+Tamaño de la partición   : 952,96 GB
+UID de la partición      : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+Letra de unidad          : C
+Sistema de archivos      : NTFS
+Volume UID               : \\?\Volume{1a126c2c-36c1-4214-ab9b-4ac1dc558fe0}\
+
+Número de partición      : 4
+Tamaño de la partición   : 0,79 GB
+UID de la partición      : {de94bba4-06d1-4d40-a16a-bfd50179d6ac}
+Letra de unidad          : 
+Sistema de archivos      : NTFS
+Volume UID               : \\?\Volume{d898af07-ead0-4eaa-b0f9-554dabfa326c}\
+

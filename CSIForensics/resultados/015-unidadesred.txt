@@ -1,0 +1,17 @@
+=== Unidades de red + IP servidor 06/19/2026 14:15:30 ===
+
+Unidad: Z:
+Ruta: \\192.168.250.113\Compartida
+Servidor: 192.168.250.113
+IP: 192.168.250.113
+----------------------
+
+=== Unidades persistentes (registro) ===
+
+Unidad: lpt1
+Ruta: \\192.168.250.113\epson
+Servidor: 192.168.250.113
+IP: 192.168.250.113
+----------------------
+
+=== Fin ===

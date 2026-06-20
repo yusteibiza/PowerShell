@@ -1,0 +1,1 @@
+Get-Disk | Select Number, FriendlyName, SerialNumber, UniqueId | Out-File .\resultados\01-hashesdiscos.txt -Encoding utf8

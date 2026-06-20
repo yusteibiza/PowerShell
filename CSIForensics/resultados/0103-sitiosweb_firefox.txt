@@ -1,0 +1,50 @@
+﻿https://www.az-partners.net/apps/driver-hub/download?ap=28&driver-hub-install.exe|Kaspersky Small Office Security|2026-05-12 13:27:27
+https://www.az-partners.net/apps/driver-hub/download?C5928051-CCB5-479F-A656-0D564BDBEE9E_ksospc_cup_C6FA3ED5_6D17_47D1_B6E2_F4B02CC905E0_||2026-05-12 13:27:27
+https://es.drvhub.net/products/free/download/init||2026-05-12 13:27:24
+https://es.drvhub.net/|DriverHub descarga automáticamente los drivers para Windows|2026-05-12 13:27:18
+https://www.google.com/search?client=firefox-b-e&channel=entpr&q=driverhu|driverhu - Buscar con Google|2026-05-12 13:27:16
+http://localhost:8031/CSIProgramasWeb/PAGE_Clientes/GGEAAAAAAADvzkMhAAAAAAAA?WD_ACTION_=REFRESH|Clientes(Versión de prueba)(DBG24856)|2026-05-08 11:52:32
+http://localhost:8031/CSIProgramasWeb/ES/Inicio.wb?REFID=GGEAAAAAAAAAAAAAAAAAAAAABrRlbgD_Mjdjpw|(Versión de prueba)(DBG24856)|2026-05-08 11:52:29
+http://localhost:8031/CSIProgramasWeb/CONNECT_MODETEST/GGEAAAAAAAAAAAAAAAAAAAAABrRlbgD_Mjdjpw||2026-05-08 11:52:29
+http://localhost:8031/CSIProgramasWeb/PAGE_Clientes/MIwAAAAAAAAAAAAAAAAAAAAA?WD_ACTION_=REFRESH|Clientes(Versión de prueba)(DBG35888)|2026-05-08 11:37:36
+http://localhost:8031/CSIProgramasWeb/PAGE_Plataformas/MIwAAAAAAAB8FjYhAAAAAAAA?WD_ACTION_=REFRESH|PAGE_Plataformas(Versión de prueba)(DBG35888)|2026-05-08 11:37:33
+http://localhost:8031/CSIProgramasWeb/ES/Inicio.wb?REFID=MIwAAAAAAAAAAAAAAAAAAAAA|(Versión de prueba)(DBG35888)|2026-05-08 11:37:17
+http://localhost:8031/CSIProgramasWeb/PAGE_Acceso/MIwAAAAAAAAAAAAAAAAAAAAA6vYQoNKT0Ijymw?WD_ACTION_=REFRESH||2026-05-08 11:37:17
+http://localhost:8031/CSIProgramasWeb/CONNECT_MODETEST/MIwAAAAAAAAAAAAAAAAAAAAA6vYQoNKT0Ijymw|Acceso|2026-05-08 11:37:16
+http://localhost:8031/Geoname/PAGE_Codigos_postales/oGcAAAAAAAAAAAAAAAAAAAAA8nGYiJhEh6$bHg?WD_ACTION_=REFRESH|Códigos postales(Versión de prueba)(DBG26528)|2026-05-08 11:35:07
+http://localhost:8031/Geoname/CONNECT_MODETEST/oGcAAAAAAAAAAAAAAAAAAAAA8nGYiJhEh6$bHg|Códigos postales|2026-05-08 11:35:07
+https://forum.pcsoft.fr/es-ES/pcsoft.fr.webdev/search/page/1.awp?q=was&mode=all|WEBDEV 2025 - Foro de desarrolladores - PC SOFT|2026-05-08 10:23:13
+http://localhost:8031/CSIProgramasWeb/PAGE_Clientes/5CEBAAAAAACVFEUYAAAAAAAA?WD_ACTION_=REFRESH|Clientes(Versión de prueba)(DBG74212)|2026-05-06 17:58:01
+http://localhost:8031/CSIProgramasWeb/PAGE_Clientes/5CEBAAAAAACVFEUYAAAAAAAA?WD_ACTION_=MENU&ID=M137&WD_CHAMP_CONTEXTUEL_=M131|Información(Versión de prueba)(DBG74212)|2026-05-06 17:57:59
+http://localhost:8031/CSIProgramasWeb/PAGE_Clientes/5CEBAAAAAADaE0UYAAAAAAAA?WD_ACTION_=REFRESH|Clientes(Versión de prueba)(DBG74212)|2026-05-06 17:57:23
+http://localhost:8031/CSIPROGRAMASWEB_WEB//listados/repclientes.pdf|repclientes.pdf|2026-05-06 17:57:14
+http://localhost:8031/CSIProgramasWeb/ES/Inicio.wb?REFID=5CEBAAAAAAAAAAAAAAAAAAAA|(Versión de prueba)(DBG74212)|2026-05-06 17:56:17
+http://localhost:8031/CSIProgramasWeb/PAGE_Acceso/5CEBAAAAAAAAAAAAAAAAAAAAWhUjDjR6XMz9KA?WD_ACTION_=REFRESH|Acceso(Versión de prueba)(DBG74212)|2026-05-06 17:56:12
+http://localhost:8031/CSIProgramasWeb/CONNECT_MODETEST/5CEBAAAAAAAAAAAAAAAAAAAAWhUjDjR6XMz9KA|Acceso|2026-05-06 17:56:12
+http://localhost:8031/podcast_menu_retratil/CONNECT_MODETEST/4FQAAAAAAAAAAAAAAAAAAAAAk5$9jPXeU$C$dg|Menu principal(Test Version)(DBG21728)|2026-04-24 10:25:43
+http://localhost:8031/podcast_menu_retratil/CONNECT_MODETEST/7G4AAAAAAAAAAAAAAAAAAAAAXvol_SyPIXpCTw|Menu principal(Test Version)(DBG28396)|2026-04-24 10:24:55
+http://localhost:8031/podcast_menu_retratil/CONNECT_MODETEST/bDkAAAAAAAAAAAAAAAAAAAAAp1SrenqgtZlQKA|Menu principal(Test Version)(DBG14700)|2026-04-24 10:24:41
+http://localhost:8031/podcast_menu_retratil/CONNECT_MODETEST/wHQAAAAAAAAAAAAAAAAAAAAAVlV$o9bgLRG_8A#|Menu principal(Test Version)(DBG29888)|2026-04-24 10:24:07
+http://localhost:8031/podcast_menu_retratil/CONNECT_MODETEST/wHQAAAAAAAAAAAAAAAAAAAAAVlV$o9bgLRG_8A|Menu principal(Test Version)(DBG29888)|2026-04-24 10:23:23
+http://localhost:8031/podcast_login/PAGE_menu/rEoAAAAAAAAyQpsEAAAAAAAA?WD_ACTION_=REFRESH|Menu(Test Version)(DBG19116)|2026-04-24 10:18:56
+http://localhost:8031/podcast_login/PAGE_menu/rEoAAAAAAAAAAAAAAAAAAAAA?WD_ACTION_=REFRESH|Menu(Test Version)(DBG19116)|2026-04-24 10:18:35
+http://localhost:8031/podcast_login/CONNECT_MODETEST/rEoAAAAAAAAAAAAAAAAAAAAAdAo7NKtdEbKmww|Login(Test Version)(DBG19116)|2026-04-24 10:18:20
+https://cdn.mysql.com//Downloads/MySQL-8.4/mysql-8.4.9-winx64.msi|mysql-8.4.9-winx64.msi|2026-04-23 12:26:14
+https://dev.mysql.com/get/Downloads/MySQL-8.4/mysql-8.4.9-winx64.msi||2026-04-23 12:26:14
+https://dev.mysql.com/downloads/file/?id=551030|MySQL :: Begin Your Download|2026-04-23 12:26:13
+https://dev.mysql.com/downloads/mysql/8.0.html|MySQL :: Download MySQL Community Server|2026-04-23 12:25:51
+https://www.google.com/search?client=firefox-b-e&channel=entpr&q=mysql+community+server|mysql community server - Buscar con Google|2026-04-23 12:25:50
+https://ayuda.windev.es/es-GEN/?3013072|Arquitectura de 3 niveles - PC SOFT - Documentación en línea|2026-04-23 12:11:53
+https://www.google.com/search?client=firefox-b-e&channel=entpr&q=patrones+arquitectura+con+windev|patrones arquitectura con windev - Buscar con Google|2026-04-23 12:11:50
+https://www.ascompsoftware.com/en/products/pcinternals|PC Internals - PC Analysis & Drive Monitoring | ASCOMP|2026-04-23 12:10:41
+https://www.google.com/search?client=firefox-b-e&channel=entpr&q=pc+internals|pc internals - Buscar con Google|2026-04-23 12:10:40
+https://sourceforge.net/directory/windows/?q=pc%20internals|pc internals free download - SourceForge|2026-04-23 12:10:33
+https://sourceforge.net/directory/windows/?q=pc+internals||2026-04-23 12:10:33
+https://sourceforge.net/directory/?q=pc%20internals|pc internals free download - SourceForge|2026-04-23 12:10:29
+https://sourceforge.net/directory/?q=pc+internals||2026-04-23 12:10:29
+https://www.stellarinfo.com/hard-drive-monitor.php|Stellar Drive Monitor - A Hard Drive Health Monitoring Tool for Windows & macOS|2026-04-23 11:45:31
+https://www.stellarinfo.com/hard-drive-monitor.php?srsltid=AfmBOopeJS9B-M3nCCSqQSbx2THY2ONZvJjUlk4RD2uGdjFY0jNqIu6p||2026-04-23 11:45:30
+https://www.google.com/search?client=firefox-b-e&channel=entpr&q=stellar+drive+monitor|stellar drive monitor - Buscar con Google|2026-04-23 11:45:25
+https://www.filehorse.com/es/download-stellar-drive-monitor/|Stellar Drive Monitor - Descargar para Windows - FileHorse|2026-04-23 11:44:27
+https://sourceforge.net/projects/hwinfo/|HWiNFO download | SourceForge.net|2026-04-23 11:43:27
+https://sourceforge.net/projects/hwinfo/postdownload|Find out more about HWiNFO | SourceForge.net|2026-04-23 11:43:16

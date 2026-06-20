@@ -1,0 +1,11 @@
+﻿
+Name               Enabled Description                                                                                 
+----               ------- -----------                                                                                 
+Administrador      False   Cuenta integrada para la administración del equipo o dominio                                
+CSI                True                                                                                                
+DefaultAccount     False   Cuenta de usuario administrada por el sistema.                                              
+Invitado           False   Cuenta integrada para el acceso como invitado al equipo o dominio                           
+WDAGUtilityAccount False   Una cuenta de usuario que el sistema administra y usa para escenarios de Protección de ap...
+Yuste              True                                                                                                
+
+
