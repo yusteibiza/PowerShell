@@ -1,1 +1,3 @@
-CSIForensics/resultados/
+CSIForensics/resultados/*
+.gitignore
+
