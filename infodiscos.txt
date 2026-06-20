@@ -1,105 +1,288 @@
-================================= [ Disco 0 ] =================================
-Número de disco           : 0
-Fabricante               : 
-Modelo                   : WDC  WDS500G2B0A-00SM50
-Tamaño del disco          : 465,76 GB
-UID del disco            : {cfdfbda9-b208-449d-915c-89c8fb132116}
+<================================ [ Disco 0 ] ================================>
 
-Número de partición        : 1
-Tamaño de la partición     : 465,76 GB
-UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
-Letra de unidad          : D
-Sistema de archivos      : NTFS
-Volume UID               : \\?\Volume{000006b1-fcb0-8010-29bf-da01620d0000}\
+>>> INFORMACION DISCO <<<
+     • Número de disco     : 0
+     • Fabricante         : 
+     • Modelo             : Samsung SSD 850 EVO 500GB
+     • Tamaño del disco   : 465,76 GB
+     • UID del disco      : {12a610f9-d9e9-4a21-af6d-801863cede7c}
+>>> FIN INFORMACION DISCO <<<
+ 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 1
+     • Tamaño de la partición : 1,00 GB
+     • UID de la partición       : {c12a7328-f81f-11d2-ba4b-00a0c93ec93b}
+     • Letra de unidad          : 
+     • Sistema de archivos      : FAT32
+     • Volume UID               : \\?\Volume{3916256e-8098-4426-96c3-c1eda6f74aa5}\
+     • Etiqueta                 : 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 2
+     • Tamaño de la partición : 464,76 GB
+     • UID de la partición       : {4f68bce3-e8cd-4db1-96e7-fbcaf984b709}
+     • Letra de unidad          : Sin letra
+     • Sistema de archivos      : N/A
+     • Volume UID               : N/A
+     • Etiqueta                 : [ Sin etiqueta ]
+>>> FIN INFORMACION PARTICION <<<
 
-================================= [ Disco 1 ] =================================
-Número de disco           : 1
-Fabricante               : 
-Modelo                   : TOSHIBA DT01ACA300
-Tamaño del disco          : 2.794,52 GB
-UID del disco            : {8e65b600-377f-03aa-806d-99e3df8dea00}
+<================================ [ Disco 1 ] ================================>
 
-Número de partición        : 1
-Tamaño de la partición     : 2.500,00 GB
-UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
-Letra de unidad          : E
-Sistema de archivos      : NTFS
-Volume UID               : \\?\Volume{00253e1f-8720-c7ca-bf1b-d57d3e7c4a00}\
+>>> INFORMACION DISCO <<<
+     • Número de disco     : 1
+     • Fabricante         : 
+     • Modelo             : TOSHIBA DT01ACA200
+     • Tamaño del disco   : 1.863,02 GB
+     • UID del disco      : {1063c69b-296f-47c4-8cd8-2b1af778e372}
+>>> FIN INFORMACION DISCO <<<
+ 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 1
+     • Tamaño de la partición : 0,50 GB
+     • UID de la partición       : {c12a7328-f81f-11d2-ba4b-00a0c93ec93b}
+     • Letra de unidad          : 
+     • Sistema de archivos      : FAT32
+     • Volume UID               : \\?\Volume{d4cf5db7-f20d-4fd4-b665-1b3aafa91bf3}\
+     • Etiqueta                 : 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 2
+     • Tamaño de la partición : 2,00 GB
+     • UID de la partición       : {0657fd6d-a4ab-43c4-84e5-0933c84b4f4f}
+     • Letra de unidad          : Sin letra
+     • Sistema de archivos      : N/A
+     • Volume UID               : N/A
+     • Etiqueta                 : [ Sin etiqueta ]
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 3
+     • Tamaño de la partición : 500,00 GB
+     • UID de la partición       : {0fc63daf-8483-4772-8e79-3d69d8477de4}
+     • Letra de unidad          : Sin letra
+     • Sistema de archivos      : N/A
+     • Volume UID               : N/A
+     • Etiqueta                 : [ Sin etiqueta ]
+>>> FIN INFORMACION PARTICION <<<
 
-Número de partición        : 2
-Tamaño de la partición     : 0,23 GB
-UID de la partición       : {0657fd6d-a4ab-43c4-84e5-0933c84b4f4f}
-Letra de unidad          : Sin letra
-Sistema de archivos      : N/A
-Volume UID               : N/A
+<================================ [ Disco 2 ] ================================>
 
-Número de partición        : 3
-Tamaño de la partición     : 292,52 GB
-UID de la partición       : {0fc63daf-8483-4772-8e79-3d69d8477de4}
-Letra de unidad          : Sin letra
-Sistema de archivos      : N/A
-Volume UID               : N/A
+>>> INFORMACION DISCO <<<
+     • Número de disco     : 2
+     • Fabricante         : 
+     • Modelo             : TOSHIBA HDWD130
+     • Tamaño del disco   : 2.794,52 GB
+     • UID del disco      : {ec9ff1e0-6007-4ac0-9152-af752686642e}
+>>> FIN INFORMACION DISCO <<<
+ 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 1
+     • Tamaño de la partición : 2.794,52 GB
+     • UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+     • Letra de unidad          : E
+     • Sistema de archivos      : NTFS
+     • Volume UID               : \\?\Volume{ed2d4ae0-7deb-01d4-70a1-96f6f53eea00}\
+     • Etiqueta                 : Virtualización
+>>> FIN INFORMACION PARTICION <<<
 
-================================= [ Disco 2 ] =================================
-Número de disco           : 2
-Fabricante               : 
-Modelo                   : WDC WD40EFRX-68N32N0
-Tamaño del disco          : 3.726,02 GB
-UID del disco            : {e893aca0-b526-03b6-28eb-24ba49aded00}
+<================================ [ Disco 3 ] ================================>
 
-Número de partición        : 1
-Tamaño de la partición     : 3.726,02 GB
-UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
-Letra de unidad          : F
-Sistema de archivos      : NTFS
-Volume UID               : \\?\Volume{677d5bd0-5a94-01db-e8ad-be334aaded00}\
+>>> INFORMACION DISCO <<<
+     • Número de disco     : 3
+     • Fabricante         : 
+     • Modelo             : Apacer AS350 512GB
+     • Tamaño del disco   : 476,94 GB
+     • UID del disco      : {9eb4ccef-ee3f-4db0-a543-8e315e956c09}
+>>> FIN INFORMACION DISCO <<<
+ 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 1
+     • Tamaño de la partición : 0,49 GB
+     • UID de la partición       : {c12a7328-f81f-11d2-ba4b-00a0c93ec93b}
+     • Letra de unidad          : 
+     • Sistema de archivos      : FAT32
+     • Volume UID               : \\?\Volume{ce115e7a-646f-40d6-8736-9f7c6f46b85e}\
+     • Etiqueta                 : 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 2
+     • Tamaño de la partición : 2,00 GB
+     • UID de la partición       : {0657fd6d-a4ab-43c4-84e5-0933c84b4f4f}
+     • Letra de unidad          : Sin letra
+     • Sistema de archivos      : N/A
+     • Volume UID               : N/A
+     • Etiqueta                 : [ Sin etiqueta ]
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 3
+     • Tamaño de la partición : 160,00 GB
+     • UID de la partición       : {0fc63daf-8483-4772-8e79-3d69d8477de4}
+     • Letra de unidad          : Sin letra
+     • Sistema de archivos      : N/A
+     • Volume UID               : N/A
+     • Etiqueta                 : [ Sin etiqueta ]
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 4
+     • Tamaño de la partición : 314,45 GB
+     • UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+     • Letra de unidad          : D
+     • Sistema de archivos      : NTFS
+     • Volume UID               : \\?\Volume{c28ceafe-92a4-4ea2-b192-54a23ee9a012}\
+     • Etiqueta                 : Windows10-VM
+>>> FIN INFORMACION PARTICION <<<
 
-================================= [ Disco 3 ] =================================
-Número de disco           : 3
-Fabricante               : NVMe    
-Modelo                   : Apacer AS2280P4 
-Tamaño del disco          : 476,94 GB
-UID del disco            : {9f6502e0-6307-03b4-b840-d9e7c118ed00}
+<================================ [ Disco 4 ] ================================>
 
-Número de partición        : 1
-Tamaño de la partición     : 476,93 GB
-UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
-Letra de unidad          : G
-Sistema de archivos      : NTFS
-Volume UID               : \\?\Volume{45957510-a9e1-11f0-9615-005056c00008}\
+>>> INFORMACION DISCO <<<
+     • Número de disco     : 4
+     • Fabricante         : 
+     • Modelo             : WD_BLACK SN770 1TB
+     • Tamaño del disco   : 931,51 GB
+     • UID del disco      : {6614288b-30b5-4e94-87b8-fa93d2b9042d}
+>>> FIN INFORMACION DISCO <<<
+ 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 1
+     • Tamaño de la partición : 0,02 GB
+     • UID de la partición       : {e3c9e316-0b5c-4db8-817d-f92df00215ae}
+     • Letra de unidad          : Sin letra
+     • Sistema de archivos      : N/A
+     • Volume UID               : N/A
+     • Etiqueta                 : [ Sin etiqueta ]
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 2
+     • Tamaño de la partición : 930,76 GB
+     • UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+     • Letra de unidad          : C
+     • Sistema de archivos      : NTFS
+     • Volume UID               : \\?\Volume{f1efc1c3-03d5-4b85-a0dd-06e13b517244}\
+     • Etiqueta                 : Windows 11
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 3
+     • Tamaño de la partición : 0,73 GB
+     • UID de la partición       : {de94bba4-06d1-4d40-a16a-bfd50179d6ac}
+     • Letra de unidad          : 
+     • Sistema de archivos      : NTFS
+     • Volume UID               : \\?\Volume{af35cdc2-5c5e-4793-9bbb-026f4af55c1f}\
+     • Etiqueta                 : 
+>>> FIN INFORMACION PARTICION <<<
 
-================================= [ Disco 4 ] =================================
-Número de disco           : 4
-Fabricante               : NVMe    
-Modelo                   : Apacer AS2280P4 
-Tamaño del disco          : 953,87 GB
-UID del disco            : {ff0baacb-332c-443c-a1f6-f3e28a6b9ba8}
+<================================ [ Disco 5 ] ================================>
 
-Número de partición        : 1
-Tamaño de la partición     : 0,10 GB
-UID de la partición       : {c12a7328-f81f-11d2-ba4b-00a0c93ec93b}
-Letra de unidad          : 
-Sistema de archivos      : FAT32
-Volume UID               : \\?\Volume{81953347-512f-4733-8391-139e0eed6357}\
+>>> INFORMACION DISCO <<<
+     • Número de disco     : 5
+     • Fabricante         : WDC WD40
+     • Modelo             : EFRX-68N32N0    
+     • Tamaño del disco   : 3.726,02 GB
+     • UID del disco      : {736206d2-559a-420d-90fd-6c019ff00167}
+>>> FIN INFORMACION DISCO <<<
+ 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 1
+     • Tamaño de la partición : 3.725,90 GB
+     • UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+     • Letra de unidad          : G
+     • Sistema de archivos      : NTFS
+     • Volume UID               : \\?\Volume{ff2edf84-2cbc-4825-931d-4781e1108eb7}\
+     • Etiqueta                 : Backups
+>>> FIN INFORMACION PARTICION <<<
 
-Número de partición        : 2
-Tamaño de la partición     : 0,02 GB
-UID de la partición       : {e3c9e316-0b5c-4db8-817d-f92df00215ae}
-Letra de unidad          : Sin letra
-Sistema de archivos      : N/A
-Volume UID               : N/A
+<================================ [ Disco 6 ] ================================>
 
-Número de partición        : 3
-Tamaño de la partición     : 952,96 GB
-UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
-Letra de unidad          : C
-Sistema de archivos      : NTFS
-Volume UID               : \\?\Volume{1a126c2c-36c1-4214-ab9b-4ac1dc558fe0}\
+>>> INFORMACION DISCO <<<
+     • Número de disco     : 6
+     • Fabricante         : WD Blue 
+     • Modelo             : SA510 2.5 1000GB
+     • Tamaño del disco   : 931,51 GB
+     • UID del disco      : {f1322969-499d-4938-9d36-fedde8bc0809}
+>>> FIN INFORMACION DISCO <<<
+ 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 1
+     • Tamaño de la partición : 1,00 GB
+     • UID de la partición       : {c12a7328-f81f-11d2-ba4b-00a0c93ec93b}
+     • Letra de unidad          : 
+     • Sistema de archivos      : FAT32
+     • Volume UID               : \\?\Volume{54869e10-401d-45c7-a30e-28268318f576}\
+     • Etiqueta                 : 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 2
+     • Tamaño de la partición : 4,00 GB
+     • UID de la partición       : {0657fd6d-a4ab-43c4-84e5-0933c84b4f4f}
+     • Letra de unidad          : Sin letra
+     • Sistema de archivos      : N/A
+     • Volume UID               : N/A
+     • Etiqueta                 : [ Sin etiqueta ]
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 3
+     • Tamaño de la partición : 444,51 GB
+     • UID de la partición       : {4f68bce3-e8cd-4db1-96e7-fbcaf984b709}
+     • Letra de unidad          : Sin letra
+     • Sistema de archivos      : N/A
+     • Volume UID               : N/A
+     • Etiqueta                 : [ Sin etiqueta ]
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 4
+     • Tamaño de la partición : 478,52 GB
+     • UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+     • Letra de unidad          : I
+     • Sistema de archivos      : NTFS
+     • Volume UID               : \\?\Volume{72296ed0-b5cd-01da-68b3-14b9e65aed00}\
+     • Etiqueta                 : WDB_SSD-EXT_TOOQ
+>>> FIN INFORMACION PARTICION <<<
 
-Número de partición        : 4
-Tamaño de la partición     : 0,79 GB
-UID de la partición       : {de94bba4-06d1-4d40-a16a-bfd50179d6ac}
-Letra de unidad          : 
-Sistema de archivos      : NTFS
-Volume UID               : \\?\Volume{d898af07-ead0-4eaa-b0f9-554dabfa326c}\
+<================================ [ Disco 7 ] ================================>
+
+>>> INFORMACION DISCO <<<
+     • Número de disco     : 7
+     • Fabricante         : WD      
+     • Modelo             : Elements 25A1   
+     • Tamaño del disco   : 2.794,49 GB
+     • UID del disco      : {3f693f92-3edb-430e-9a6d-edbbff056dd1}
+>>> FIN INFORMACION DISCO <<<
+ 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 1
+     • Tamaño de la partición : 2.794,49 GB
+     • UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+     • Letra de unidad          : Sin letra
+     • Sistema de archivos      : N/A
+     • Volume UID               : N/A
+     • Etiqueta                 : [ Sin etiqueta ]
+>>> FIN INFORMACION PARTICION <<<
+
+<================================ [ Disco 8 ] ================================>
+
+>>> INFORMACION DISCO <<<
+     • Número de disco     : 8
+     • Fabricante         : ASMedia 
+     • Modelo             : USB3.0 External 
+     • Tamaño del disco   : 931,52 GB
+     • UID del disco      : {4b03b4af-f442-40c7-ab69-ba33b9d23d46}
+>>> FIN INFORMACION DISCO <<<
+ 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 1
+     • Tamaño de la partición : 931,51 GB
+     • UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+     • Letra de unidad          : J
+     • Sistema de archivos      : NTFS
+     • Volume UID               : \\?\Volume{991b1a10-2ba5-01db-088d-8dccd295ed00}\
+     • Etiqueta                 : Aisens-Sandisk_1TB
+>>> FIN INFORMACION PARTICION <<<
+
+<================================ [ Disco 9 ] ================================>
+
+>>> INFORMACION DISCO <<<
+     • Número de disco     : 9
+     • Fabricante         : WDC WD40
+     • Modelo             : EZAX-00C8UB0    
+     • Tamaño del disco   : 3.726,02 GB
+     • UID del disco      : {8c513680-8fbf-03b4-a04d-14e3ef23ed00}
+>>> FIN INFORMACION DISCO <<<
+ 
+>>> INFORMACION PARTICION <<<
+     • Número de partición        : 1
+     • Tamaño de la partición : 3.726,02 GB
+     • UID de la partición       : {ebd0a0a2-b9e5-4433-87c0-68b6b72699c7}
+     • Letra de unidad          : F
+     • Sistema de archivos      : NTFS
+     • Volume UID               : \\?\Volume{2ca0d8e0-47f4-01da-7068-5016fa23ed00}\
+     • Etiqueta                 : Datos_USB
+>>> FIN INFORMACION PARTICION <<<
 
