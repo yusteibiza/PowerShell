@@ -1,3 +1,4 @@
 Scripts en PowerShell
 ---------------------
-[CSI(http://csibiza.com)]
+Centro de Software Ibiza
+http://csibiza.com
