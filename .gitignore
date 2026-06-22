@@ -1,4 +1,4 @@
 CSIForensics/resultados/*
-*.txt
 .gitignore
-
+*.txt
+*.tmp
