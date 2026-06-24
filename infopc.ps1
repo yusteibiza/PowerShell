@@ -19,6 +19,8 @@ $placabase = Get-CimInstance Win32_BaseBoard | Select-Object -Property Manufactu
 [string]$memoria = (Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory
 $memoria = [math]::Round($memoria/1GB,2)
 
+clear
+
 Write-Host "`n " -NoNewLine
 Write-Host "".PadLeft(22, '-') -ForegroundColor Cyan
 Write-Host " Información del equipo" -ForegroundColor Cyan
