@@ -42,7 +42,6 @@ Write-Host $($individual.GraphicsScore) -ForegroundColor white
 Write-Host "   - Puntuación Direct 3D .......: " -ForegroundColor DarkGray -NonewLine
 Write-Host $($individual.D3DScore) -ForegroundColor white
 Write-Host "   - Puntuación del disco .......: " -ForegroundColor DarkGray -NonewLine
-
 Write-Host $($individual.DiskScore)`n -ForegroundColor white
 
 # Write-Host $res
