@@ -1,5 +1,7 @@
 
-$outDir = ".\resultados"
+$scriptDir = $PSScriptRoot
+if (-not $scriptDir) { $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path }
+$outDir = Join-Path $scriptDir "resultados"
 $outFile = Join-Path $outDir "019-impdocxrenuncia.txt"
 
 $utf8 = New-Object System.Text.UTF8Encoding $false
@@ -10,7 +12,7 @@ if (!(Test-Path $outDir)) {
 
 [System.IO.File]::WriteAllText(
     $outFile,
-    "=== Análisis impresión documentos (renuncia) $(Get-Date) ===`r`n`r`n",
+    "=== Analisis impresion documentos (renuncia) $(Get-Date) ===`r`n`r`n",
     $utf8
 )
 
@@ -20,7 +22,8 @@ if (!(Test-Path $outDir)) {
 $log = "Microsoft-Windows-PrintService/Operational"
 
 try {
-    $events = Get-WinEvent -LogName $log -ErrorAction Stop |
+    # Obtener eventos de impresion recientes (max 1000 para evitar bloqueo)
+    $events = Get-WinEvent -LogName $log -MaxEvents 1000 -ErrorAction Stop |
               Where-Object { $_.Id -eq 307 }
 
     foreach ($e in $events) {
@@ -49,7 +52,7 @@ catch {
 # ==============================
 # 2. Spooler (archivos recientes)
 # ==============================
-$spool = "C:\Windows\System32\spool\PRINTERS"
+$spool = Join-Path $env:SystemRoot "System32\spool\PRINTERS"
 
 if (Test-Path $spool) {
 

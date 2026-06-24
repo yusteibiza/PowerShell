@@ -1,11 +1,11 @@
 
-$outDir = ".\resultados"
+$outDir = Join-Path $PSScriptRoot "resultados"
 $outFile = Join-Path $outDir "020-notas.txt"
 
 $utf8 = New-Object System.Text.UTF8Encoding $false
 
 if (!(Test-Path $outDir)) {
-    New-Item -ItemType Directory -Force | Out-Null
+    New-Item -ItemType Directory -Path $outDir -Force | Out-Null
 }
 
 [System.IO.File]::WriteAllText(
@@ -48,7 +48,7 @@ foreach ($u in $users) {
             $text += "Base datos: $db`r`n"
 
             # ==============================
-            # 2. Intento de lectura básica SQLite (raw)
+            # 2. Intento de lectura bï¿½sica SQLite (raw)
             # ==============================
             try {
 
@@ -80,7 +80,7 @@ foreach ($u in $users) {
 
             }
             catch {
-                $text += "No se pudo leer SQLite directamente (posible bloqueo o versión moderna)`r`n"
+                $text += "No se pudo leer SQLite directamente (posible bloqueo o versiï¿½n moderna)`r`n"
             }
 
         }

@@ -1,11 +1,13 @@
 
-$outDir = ".\resultados"
+$scriptDir = $PSScriptRoot
+if (-not $scriptDir) { $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path }
+$outDir = Join-Path $scriptDir "resultados"
 $outFile = Join-Path $outDir "012-appcorreo.txt"
 
 $utf8 = New-Object System.Text.UTF8Encoding $false
 
 if (!(Test-Path $outDir)) {
-    New-Item -ItemType Directory -Force | Out-Null
+    New-Item -ItemType Directory -Force -Path $outDir | Out-Null
 }
 
 [System.IO.File]::WriteAllText(
@@ -59,21 +61,20 @@ if ($newOutlook) {
 # =========================
 # THUNDERBIRD
 # =========================
-$users = Get-ChildItem "C:\Users" -Directory -ErrorAction SilentlyContinue |
-Where-Object {
-    $_.Name -notin @(
-        "Public","Default","Default User",
-        "All Users","WDAGUtilityAccount"
-    )
-}
+$profiles = Get-ChildItem "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList"
 
-foreach ($u in $users) {
+foreach ($p in $profiles) {
 
-    $tb = Join-Path $u.FullName "AppData\Roaming\Thunderbird"
+    $profilePath = (Get-ItemProperty $p.PSPath -ErrorAction SilentlyContinue).ProfileImagePath
+
+    if (-not $profilePath) { continue }
+
+    $tb = Join-Path $profilePath "AppData\Roaming\Thunderbird"
 
     if (Test-Path $tb) {
 
-        $text = "Thunderbird detectado (usuario: $($u.Name))`r`n"
+        $user = Split-Path $profilePath -Leaf
+        $text = "Thunderbird detectado (usuario: $user)`r`n"
 
         $ini = Join-Path $tb "profiles.ini"
 

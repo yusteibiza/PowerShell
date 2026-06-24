@@ -1,5 +1,7 @@
 
-$outDir = ".\resultados"
+$scriptDir = $PSScriptRoot
+if (-not $scriptDir) { $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path }
+$outDir = Join-Path $scriptDir "resultados"
 $outFile = Join-Path $outDir "014-dispexternos.txt"
 
 $utf8 = New-Object System.Text.UTF8Encoding $false
@@ -49,11 +51,11 @@ if (Test-Path $usbStorPath) {
 }
 
 # ==============================
-# 2. USB genérico
+# 2. USB genï¿½rico
 # ==============================
 $usbPath = "HKLM:\SYSTEM\CurrentControlSet\Enum\USB"
 
-[System.IO.File]::AppendAllText($outFile, "`r`n=== USB genéricos ===`r`n`r`n", $utf8)
+[System.IO.File]::AppendAllText($outFile, "`r`n=== USB genï¿½ricos ===`r`n`r`n", $utf8)
 
 if (Test-Path $usbPath) {
 
@@ -97,7 +99,17 @@ if (Test-Path $mounted) {
         if ($prop.Name -like "\DosDevices\*") {
 
             $letter = $prop.Name
-            $value = $prop.Value
+
+            if ($prop.Value -is [byte[]]) {
+                $guid = [System.Text.Encoding]::Unicode.GetString($prop.Value) -replace '\x00', ''
+                if ($guid -match '^[a-fA-F0-9-]{32,}$') {
+                    $value = $guid
+                } else {
+                    $value = [System.BitConverter]::ToString($prop.Value) -replace '-', ' '
+                }
+            } else {
+                $value = $prop.Value
+            }
 
             $text = "Unidad: $letter`r`n"
             $text += "Identificador: $value`r`n"
