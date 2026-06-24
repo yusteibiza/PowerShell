@@ -52,7 +52,9 @@ Write-Host $($individual.DiskScore)`n -ForegroundColor white
                         $individual.GraphicsScore +
                         $individual.D3DScore +
                         $individual.DiskScore) / 5
-Write-Host "   - Puntuación media ...........: $([math]::Round($puntuaciones))`n" -ForegroundColor Green
+# Write-Host "   - Puntuación media ...........: $([math]::Round($puntuaciones))`n" -ForegroundColor Green
+Write-Host "   - Puntuación media ...........: " -NoNewLine -ForegroundColor DarkGray
+Write-Host "$([math]::Truncate($puntuaciones * 10) / 10)`n" -ForegroundColor Green
 
 # Write-Host $res
 
