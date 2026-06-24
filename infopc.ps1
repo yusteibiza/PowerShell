@@ -18,6 +18,7 @@ $placabase = Get-CimInstance Win32_BaseBoard | Select-Object -Property Manufactu
 [string]$video = (Get-CimInstance Win32_VideoController).Description
 [string]$memoria = (Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory
 $memoria = [math]::Round($memoria/1GB,2)
+[string]$velmemoria = (Get-CimInstance Win32_physicalmemory).Speed[0]
 
 clear
 
@@ -32,7 +33,7 @@ Write-Host "`n   * Placa Base ..: $($placabase.Manufacturer) / $($placabase.Prod
 Write-Host "   * Procesador ..: $procesador" -ForegroundColor Blue
 Write-Host "   * Velocidad ...: $velocidad Mhz" -ForegroundColor Blue
 Write-Host "   * Gráfica .....: $video" -ForegroundColor Blue
-Write-Host "   * Memoria RAM .: $memoria GB" -ForegroundColor Blue
+Write-Host "   * Memoria RAM .: $memoria GB / $velmemoria Mhz" -ForegroundColor Blue
 
 ### PUNTUACION WINSAT ###
 Write-Host "`n   - Puntuación del procesador ..: " -ForegroundColor DarkGray -NonewLine
