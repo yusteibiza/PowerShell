@@ -47,5 +47,12 @@ Write-Host $($individual.D3DScore) -ForegroundColor white
 Write-Host "   - Puntuación del disco .......: " -ForegroundColor DarkGray -NonewLine
 Write-Host $($individual.DiskScore)`n -ForegroundColor white
 
+[double]$puntuaciones = ($individual.CPUScore +
+                        $individual.MemoryScore + 
+                        $individual.GraphicsScore +
+                        $individual.D3DScore +
+                        $individual.DiskScore) / 5
+Write-Host "   - Puntuación media ...........: $([math]::Round($puntuaciones))`n" -ForegroundColor Green
+
 # Write-Host $res
 
