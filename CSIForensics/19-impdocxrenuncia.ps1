@@ -1,78 +1,120 @@
 
-$scriptDir = $PSScriptRoot
-if (-not $scriptDir) { $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path }
-$outDir = Join-Path $scriptDir "resultados"
-$outFile = Join-Path $outDir "019-impdocxrenuncia.txt"
+# ==============================
+# RUTAS SEGURAS
+# ==============================
 
-$utf8 = New-Object System.Text.UTF8Encoding $false
+$base = Split-Path -Parent $MyInvocation.MyCommand.Path
 
-if (!(Test-Path $outDir)) {
-    New-Item -ItemType Directory -Force -Path $outDir | Out-Null
-}
+$archivo = Join-Path $base "docrenuncia.docx"
+$salida  = Join-Path $base "resultados\019-impdocxrenuncia.txt"
 
-[System.IO.File]::WriteAllText(
-    $outFile,
-    "=== Analisis impresion documentos (renuncia) $(Get-Date) ===`r`n`r`n",
-    $utf8
-)
+# Crear carpeta de salida
+New-Item -ItemType Directory -Force -Path (Split-Path $salida) | Out-Null
+
 
 # ==============================
-# 1. PrintService Log
+# VARIABLES
 # ==============================
-$log = "Microsoft-Windows-PrintService/Operational"
+
+$fecha = $null
+
+
+# ==============================
+# INTENTO 1: WORD COM
+# ==============================
+
+$word = New-Object -ComObject Word.Application
+$word.Visible = $false
+
+$doc = $null
 
 try {
-    # Obtener eventos de impresion recientes (max 1000 para evitar bloqueo)
-    $events = Get-WinEvent -LogName $log -MaxEvents 1000 -ErrorAction Stop |
-              Where-Object { $_.Id -eq 307 }
+    $doc = $word.Documents.Open((Resolve-Path $archivo).Path)
 
-    foreach ($e in $events) {
-
-        $msg = $e.Message
-
-        if ($msg -match "renuncia|baja|carta") {
-
-            $text = "Fecha: $($e.TimeCreated)`r`n"
-            $text += "Evento: $($e.Id)`r`n"
-            $text += "Detalle:`r`n$msg`r`n"
-            $text += "----------------------`r`n"
-
-            [System.IO.File]::AppendAllText($outFile, $text, $utf8)
-        }
+    try {
+        $fecha = $doc.BuiltInDocumentProperties("Last Print Date").Value
+    } catch {
+        $fecha = $null
     }
+
+    $doc.Close($false)
 }
 catch {
-    [System.IO.File]::AppendAllText(
-        $outFile,
-        "PrintService log no disponible o no activado`r`n`r`n",
-        $utf8
-    )
+    $fecha = $null
+}
+finally {
+    $word.Quit()
+
+    if ($doc)  { [System.Runtime.Interopservices.Marshal]::ReleaseComObject($doc) | Out-Null }
+    if ($word) { [System.Runtime.Interopservices.Marshal]::ReleaseComObject($word) | Out-Null }
+
+    [GC]::Collect()
+    [GC]::WaitForPendingFinalizers()
 }
 
+
 # ==============================
-# 2. Spooler (archivos recientes)
+# INTENTO 2: OPENXML (FALLBACK)
 # ==============================
-$spool = Join-Path $env:SystemRoot "System32\spool\PRINTERS"
 
-if (Test-Path $spool) {
+if (-not $fecha) {
 
-    $files = Get-ChildItem $spool -ErrorAction SilentlyContinue
+    Add-Type -AssemblyName System.IO.Compression.FileSystem
 
-    foreach ($f in $files) {
+    $zip = [System.IO.Compression.ZipFile]::OpenRead((Resolve-Path $archivo))
 
-        $text = "Archivo spool: $($f.Name)`r`n"
-        $text += "Fecha: $($f.CreationTime)`r`n"
-        $text += "----------------------`r`n"
+    $entry = $zip.Entries | Where-Object { $_.FullName -eq "docProps/core.xml" }
 
-        [System.IO.File]::AppendAllText($outFile, $text, $utf8)
+    if ($entry) {
+
+        $stream = $entry.Open()
+        $reader = New-Object System.IO.StreamReader($stream)
+        $xml = [xml]$reader.ReadToEnd()
+
+        $ns = New-Object System.Xml.XmlNamespaceManager($xml.NameTable)
+        $ns.AddNamespace("dcterms", "http://purl.org/dc/terms/")
+
+        $node = $xml.SelectSingleNode("//dcterms:modified", $ns)
+
+        if ($node) {
+            $fecha = $node."#text"
+        }
+
+        $reader.Close()
+        $stream.Close()
+    }
+
+    $zip.Dispose()
+}
+
+
+# ==============================
+# FORMATO FECHA ESPAÑOL
+# ==============================
+
+if ($fecha -and $fecha -ne "Sin fecha de impresión") {
+
+    try {
+        $dt = [datetime]::Parse($fecha).ToLocalTime()
+        $fecha = $dt.ToString("dd/MM/yyyy HH:mm:ss")
+    }
+    catch {
+        $fecha = "Formato no reconocible: $fecha"
     }
 }
+else {
+    $fecha = "Sin fecha de impresión"
+}
+
 
 # ==============================
-# FIN
+# GUARDAR UTF-8
 # ==============================
-[System.IO.File]::AppendAllText(
-    $outFile,
-    "`r`n=== Fin ===`r`n",
-    $utf8
+
+[System.IO.File]::WriteAllText(
+    $salida,
+    "Fecha de impresión de docrenuncia.docx`: $fecha",
+    [System.Text.Encoding]::UTF8
 )
+
+
