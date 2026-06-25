@@ -15,9 +15,9 @@ if (!(Test-Path $outDir)) {
     $outFile,
     " -- Marcas de tiempo archivo de renuncia --`n
 - Nombre .............: $($docrenuncia.Name)
-- Fecha creación .....: $($docrenuncia.CreationTime.ToString("dd/MM/yyyy"))
-- Última modificación : $($docrenuncia.LastWriteTime.ToString("dd/MM/yyyy"))
-- Último acceso ......: $($docrenuncia.LastAccessTime.ToString("dd/MM/yyyy"))",
+- Fecha creación .....: $($docrenuncia.CreationTime.ToString("dd/MM/yyyy hh:mm:ss"))
+- Última modificación : $($docrenuncia.LastWriteTime.ToString("dd/MM/yyyy hh:mm:ss"))
+- Último acceso ......: $($docrenuncia.LastAccessTime.ToString("dd/MM/yyyy hh:mm:ss"))",
     $utf8
 );
 
