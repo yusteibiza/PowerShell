@@ -19,6 +19,7 @@ $placabase = Get-CimInstance Win32_BaseBoard | Select-Object -Property Manufactu
 [string]$memoria = (Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory
 $memoria = [math]::Round($memoria/1GB,2)
 [string]$velmemoria = (Get-CimInstance Win32_physicalmemory).Speed[0]
+$velmemoria = ([string]::IsNullOrEmpty($velmemoria) ? "?" : $velmemoria)
 
 clear
 
