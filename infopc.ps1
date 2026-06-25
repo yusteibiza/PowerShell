@@ -1,6 +1,17 @@
 ### Script para sacar información del equipo
 ### mediante WinSat
 
+param(
+    [string]$test   
+)
+
+clear
+
+if ($test -eq "true"){
+    Write-Host "`n -- Evaluando experiencia --" -Foreground Red
+    Winsat formal -restart > $null
+}
+
 [string]$res = Get-CimInstance Win32_WinSAT | 
     Select-Object CPUScore,
     MemoryScore,
@@ -20,8 +31,6 @@ $placabase = Get-CimInstance Win32_BaseBoard | Select-Object -Property Manufactu
 $memoria = [math]::Round($memoria/1GB,2)
 [string]$velmemoria = (Get-CimInstance Win32_physicalmemory).Speed[0]
 $velmemoria = ([string]::IsNullOrEmpty($velmemoria) ? "?" : $velmemoria)
-
-clear
 
 Write-Host "`n " -NoNewLine
 Write-Host "".PadLeft(22, '-') -ForegroundColor Cyan
